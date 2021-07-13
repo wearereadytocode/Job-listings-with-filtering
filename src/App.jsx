@@ -23,7 +23,7 @@ function App() {
   function filterArray() {
     if (Data) {
       let _ = [...Data];
-      if (Selected.length>0) {
+      if (Selected&&Selected.length>0) {
         let _sel = Selected.map((e) => e.value);
         _ = Data.filter((e) => e.languages.some((lang) => _sel.includes(lang))||e.tools.some((tool) => _sel.includes(tool)));
         console.log(_, "e");
