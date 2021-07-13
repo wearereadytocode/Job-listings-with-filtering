@@ -18,7 +18,7 @@ const options = [
 
 function App() {
   const [Data, setData] = useState(0);
-  const [Selected, setSelected] = useState(null);
+  const [Selected, setSelected] = useState([]);
 
   function filterArray() {
     if (Data) {
