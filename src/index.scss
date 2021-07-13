@@ -1,0 +1,16 @@
+$LightGrayishCyanBack: hsl(180, 52%, 96%);
+$LightGrayishCyanFlTable: hsl(180, 31%, 95%);
+$DarkGrayishCyan:hsl(180, 8%, 52%);
+$VeryDarkGrayishCyan:hsl(180, 14%, 20%);
+
+$pri:hsl(180, 29%, 50%);
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;500;600;700;800;900&display=swap');
+
+
+body{
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  background: $LightGrayishCyanBack;
+}
